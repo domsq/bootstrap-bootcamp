@@ -95,7 +95,8 @@ body {
     margin-top: 0;
 }
 
-.quotes .page-header {
+.quotes .page-header, 
+.monthly-fav .page-header {
     margin-bottom: 25px;
 }
 
