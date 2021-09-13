@@ -6,6 +6,36 @@ body {
 
 .alert-container {}
 
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+}
+
 .callout-container {
     height: 100vh;
     background: grey url(../images/whiskey-background.jpg) bottom right / cover no-repeat fixed;
